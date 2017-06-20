@@ -1,0 +1,105 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%;
+    font-family: "微软雅黑";
+}
+header img{
+    width: 100%;
+    height: 100%;
+}
+section .img{
+    width: 100%;
+    text-align: center;
+}
+section .img img{
+    width: 6rem;
+    height: 6rem;
+    margin-top: 4.5rem;
+}
+section .account{
+    width: 90%;
+    height: 6rem;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    margin: 4.5rem auto;
+}
+section .account ul li{
+    list-style: none;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 1.4rem;
+    color: #909090;
+}
+section .account ul li img{
+    width: 1.2rem;
+    height: 1.6rem;
+    vertical-align: middle;
+    margin-top: -0.2rem;
+    margin-left: 0.4rem;
+    padding-right: 0.6rem;
+}
+section .account ul li .arrows{
+    width: 1.3rem;
+    height: 0.8rem;
+    margin-left: 17rem;
+}
+section .account ul li .password{
+    height: 1.4rem;
+}
+section .register{
+    width: 90%;
+    height: 3.5rem;
+    margin: 4.5rem auto 1.6rem;
+    background-color: #faa23a;
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 3.5rem;
+    border-radius: 4px;
+}
+section .login{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    color: #909090;
+}
+section .login .login1{
+    padding-left: 0;
+}
+section .login .login2{
+    padding-left: 16.7rem;
+}
+section .thirdly{
+    text-align: center;
+    margin: 6rem auto 0;
+    color: #909090;
+    font-size: 1.3rem;
+}
+section .line{
+    width: 100%;
+    height: 1rem;
+    border-top: 1px solid #cccccc;
+    margin-top: 2.6rem;
+}
+section .microblog{
+    width: 40%;
+    height: 4rem;
+    background-color: #fff;
+    margin: -3rem auto;
+    text-align: center;
+}
+section .microblog img{
+    width: 2.3rem;
+    margin-top: 0.8rem;
+    height: 2.3rem;
+    padding-right: 0.7rem;
+}
+section .microblog img:nth-of-type(3){
+    padding-right: 0;
+}
